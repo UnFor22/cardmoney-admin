@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    display: block;
+    overflow: hidden;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.fll {
+    float: left;
+}
+.flr {
+    float: right;
+}
+ol,ul,li{
+    list-style: none;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+.avatar {
+    width: 80px;
+    height: 80px;
+}
+.tac {
+    text-align: center;
+}
+.app-main .el-card {
+    // height: calc(100vh - 160px);
+}
+.el-menu {
+    border-right: none;
+}
+.el-submenu .el-menu-item {
+    min-width: 0;
+}
